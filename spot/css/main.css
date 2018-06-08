@@ -1,1 +1,214 @@
-@font-face{font-family:'Helvetica Neue';font-weight:400;font-style:normal;src:url(./fonts/HelveticaNeue.eot);src:url(./fonts/HelveticaNeue.eot?#iefix) format('embedded-opentype'),url(./fonts/HelveticaNeue.woff) format('woff'),url(./fonts/HelveticaNeue.ttf) format('truetype'),url(./fonts/HelveticaNeue.svg#svgFontName) format('svg')}@font-face{font-family:'Helvetica Neue Light';font-weight:400;font-style:normal;src:url(./fonts/HelveticaNeue-Light.eot);src:url(./fonts/HelveticaNeue-Light.eot?#iefix) format('embedded-opentype'),url(./fonts/HelveticaNeue-Light.woff) format('woff'),url(./fonts/HelveticaNeue-Light.ttf) format('truetype'),url(./fonts/HelveticaNeue-Light.svg#svgFontName) format('svg')}@font-face{font-family:'Helvetica Neue Bold';font-weight:400;font-style:normal;src:url(./fonts/HelveticaNeueLTPro-Bd.eot);src:url(./fonts/HelveticaNeueLTPro-Bd.eot?#iefix) format('embedded-opentype'),url(./fonts/HelveticaNeueLTPro-Bd.woff) format('woff'),url(./fonts/HelveticaNeueLTPro-Bd.ttf) format('truetype'),url(./fonts/HelveticaNeueLTPro-Bd.svg#svgFontName) format('svg')}body,html{width:100%}body{font-family:'Helvetica Neue',Arial,sans-serif;-webkit-tap-highlight-color:#212529}a{color:#F05F40;-webkit-transition:all .2s;-moz-transition:all .2s;transition:all .2s}a:hover{color:#f05f40}h1,h2,h3,h4,h5,h6{font-family:'Helvetica Neue Bold',Arial,sans-serif}section{padding:8rem 0}::-moz-selection{color:#fff;background:#212529;text-shadow:none}::selection{color:#fff;background:#212529;text-shadow:none}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}.descripcion,header.masthead{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover}header.masthead{background-color:#000;background-position:center center;background-size:cover;height:100vh;min-height:650px;padding-top:0;padding-bottom:0;width:100%}header.masthead h1{font-size:2rem}header.masthead img{width:32px;height:32px;line-height:32px;z-index:50!important;position:absolute;bottom:40px;left:50%;margin-left:-16px}.descripcion,.que-ver{background-position:center center;min-height:100vh;padding-bottom:50vh;width:100%}@media (min-width:768px){header.masthead img{font-size:1.15rem}}@media (min-width:992px){header.masthead h1{font-size:3rem}}@media (min-width:1200px){header.masthead h1{font-size:4.5rem}}.descripcion{background-color:#fff;background-size:cover;padding-top:100px}.descripcion h1{font-size:1.7rem;color:#000}.descripcion h2{font-size:1.5rem;color:#656565;padding-top:30px}.destacado{background-color:#000;color:#fff}@media (min-width:992px){.descripcion h1{font-size:2rem}.descripcion h2{font-size:1.8rem}}@media (min-width:1200px){.descripcion h1{font-size:3.8rem}}.que-ver{background-color:#f2f2f2;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:100px}.que-ver h1{font-size:1.5rem;color:#000}.que-ver h2{font-size:1rem;color:#3a3a3a}.que-ver a{color:#000;text-decoration:none}@media (min-width:992px){.que-ver h1{font-size:2rem}.que-ver h2{font-size:1.8rem}}@media (min-width:1200px){.que-ver h1{font-size:3rem}}
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/HelveticaNeue.eot);
+    src: url(./fonts/HelveticaNeue.eot?#iefix) format('embedded-opentype'), url(./fonts/HelveticaNeue.woff) format('woff'), url(./fonts/HelveticaNeue.ttf) format('truetype'), url(./fonts/HelveticaNeue.svg#svgFontName) format('svg')
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/HelveticaNeue-Light.eot);
+    src: url(./fonts/HelveticaNeue-Light.eot?#iefix) format('embedded-opentype'), url(./fonts/HelveticaNeue-Light.woff) format('woff'), url(./fonts/HelveticaNeue-Light.ttf) format('truetype'), url(./fonts/HelveticaNeue-Light.svg#svgFontName) format('svg')
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/HelveticaNeueLTPro-Bd.eot);
+    src: url(./fonts/HelveticaNeueLTPro-Bd.eot?#iefix) format('embedded-opentype'), url(./fonts/HelveticaNeueLTPro-Bd.woff) format('woff'), url(./fonts/HelveticaNeueLTPro-Bd.ttf) format('truetype'), url(./fonts/HelveticaNeueLTPro-Bd.svg#svgFontName) format('svg')
+}
+
+body,
+html {
+    width: 100%
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    -webkit-tap-highlight-color: #212529
+}
+
+a {
+    color: #F05F40;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s
+}
+
+a:hover {
+    color: #f05f40
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica Neue Bold', Arial, sans-serif
+}
+
+section {
+    padding: 8rem 0
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #212529;
+    text-shadow: none
+}
+
+::selection {
+    color: #fff;
+    background: #212529;
+    text-shadow: none
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0
+}
+
+.descripcion,
+header.masthead {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+}
+
+header.masthead {
+    background-color: #000;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%
+}
+
+header.masthead h1 {
+    font-size: 2rem
+}
+
+header.masthead img {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    z-index: 50!important;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -16px
+}
+
+.descripcion,
+.que-ver {
+    background-position: center center;
+    min-height: 100vh;
+    padding-bottom: 50vh;
+    width: 100%
+}
+
+@media (min-width:768px) {
+    header.masthead img {
+        font-size: 1.15rem
+    }
+}
+
+@media (min-width:992px) {
+    header.masthead h1 {
+        font-size: 3rem
+    }
+}
+
+@media (min-width:1200px) {
+    header.masthead h1 {
+        font-size: 4.5rem
+    }
+}
+
+.descripcion {
+    background-color: #fff;
+    background-size: cover;
+    padding-top: 100px
+}
+
+.descripcion h1 {
+    font-size: 1.7rem;
+    color: #000
+}
+
+.descripcion h2 {
+    font-size: 1.5rem;
+    color: #656565;
+    padding-top: 30px
+}
+
+.destacado {
+    background-color: #000;
+    color: #fff
+}
+
+@media (min-width:992px) {
+    .descripcion h1 {
+        font-size: 2rem
+    }
+    .descripcion h2 {
+        font-size: 1.8rem
+    }
+}
+
+@media (min-width:1200px) {
+    .descripcion h1 {
+        font-size: 3.8rem
+    }
+}
+
+.que-ver {
+    background-color: #f2f2f2;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px
+}
+
+.que-ver h1 {
+    font-size: 1.5rem;
+    color: #000
+}
+
+.que-ver h2 {
+    font-size: 1rem;
+    color: #3a3a3a
+}
+
+.que-ver a {
+    color: #000;
+    text-decoration: none
+}
+
+@media (min-width:992px) {
+    .que-ver h1 {
+        font-size: 2rem
+    }
+    .que-ver h2 {
+        font-size: 1.8rem
+    }
+}
+
+@media (min-width:1200px) {
+    .que-ver h1 {
+        font-size: 3rem
+    }
+}
